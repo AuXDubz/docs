@@ -63,7 +63,7 @@ Therefore Federation will not work without a proxy.
 To set the `proxy` and `proxyuserpwd` configuration variables, in `config/config.php`.
 `proxy` sets the proxy’s hostname, and `proxyuserpwd` sets the username and password credentials, in `username:password` format.
 
-== Creating a New Federation Share
+== Creating a new Federation Share
 
 Follow these steps to create a new Federation share between two ownCloud servers. 
 This requires no action by the user on the remote server; all it takes is a few steps on the originating server.
