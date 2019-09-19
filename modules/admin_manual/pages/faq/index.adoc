@@ -1,7 +1,7 @@
 = Frequently Asked Questions
 :toc: right
 
-== I Cannot See New LDAP Accounts
+== I want to upgrade from Community Version to Enterprise Version. What are the changes?
 
 Set up a new xref:configuration/server/background_jobs_configuration.adoc#cron-jobs[Cron job] for your Apache user to run occ with xref:configuration/server/occ_command.adoc#listing-users[the `user:sync` command] regularly.
 To do so, use `crontab` to open the cron configuration editor.
@@ -12,19 +12,18 @@ To do so, use `crontab` to open the cron configuration editor.
 crontab -u www-data -e
 ....
 
-Then, add the configuration below, save the changes, and exit the cron configuration editor.
+== How do I transfer files from one user to another?
 
 [source,cron]
 ....
 */6 * * * * /usr/bin/php /var/www/owncloud/occ user:sync -n -m disable -r "OCA\User_LDAP\User_Proxy"
 ....
 
-The command will now be executed every ten minutes.
+== How do I deal with problems caused by using self-signed SSL certificates?
 
 == I Want To Upgrade From The Community To Enterprise Version. What Is Required?
 
-To make this migration, please contact sales@owncloud.com.
-For a comparison of the two editions, see https://owncloud.com/standard-or-enterprise/.
+== I’m the admin and I lost my password! What do I do now!
 
 == Code Integrity Warning
 
@@ -36,9 +35,7 @@ Please see xref:configuration/server/security_setup_warnings.adoc[].
 
 == Why Do My Uploads Fail?
 
-PHP may time out when uploading large files. 
-This issue has been resolved with ownCloud 10.0.10. 
-From this version onwards, the web interface also supports https://doc.owncloud.com/server/10.1/admin_manual/release_notes.html#improved-reliability-for-uploads-via-web-interface-on-unreliable-connections[chunked uploads].
+== What is a Federated System?
 
 == Why Am I Unable To Upgrade My Enterprise Apps Via The Marketplace?
 

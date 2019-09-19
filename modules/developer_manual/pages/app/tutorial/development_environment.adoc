@@ -204,7 +204,7 @@ $application->registerRoutes($this, [
 ]);
 ----
 
-== lib/AppInfo/Application.php
+== appinfo/application.php
 
 This is the core class of the application. 
 Here, you setup your controllers among a range of other things. 

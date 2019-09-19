@@ -71,7 +71,7 @@ image:appliance/setup/2.png[Localization Settings]
 Here, you can set your default **language**, **time zone** and **keyboard layout**. 
 This will be set automatically if you enter your City in the previous screen.
 
-image:appliance/setup/3.png[Network Setup]
+== Activate the Appliance
 
 Here, you will see the automatically obtained **network configuration** if you have a DHCP server in your network. 
 If not - you will have to set this yourself. 

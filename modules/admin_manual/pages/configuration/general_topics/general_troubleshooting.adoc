@@ -42,7 +42,7 @@ with passwords automatically obscured.
 Check the ownCloud xref:installation/system_requirements.adoc[System Requirements], especially supported browser versions.
 When you see warnings about `code integrity`, refer to xref:configuration/general_topics/code_signing.adoc[Code Signing].
 
-=== Disable 3rdparty / non-shipped apps
+=== Disable Third-Party Apps
 
 It might be possible that 3rd party / non-shipped apps are causing various different issues.
 Always disable 3rd party apps before upgrades, and for troubleshooting.
