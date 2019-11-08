@@ -197,7 +197,7 @@ prepares for an `apps-external` directory, for details see `config.sample.php`:
 * Replace the `ocdata` variable with the path to your ownCloud data directory.
 * Replace the `apps_external` variable with the path to your ownCloud apps-external directory.
 
-In case use want to use links for the data and apps-external directory:
+In case you want to use links for the data and apps-external directory:
 
 * Replace the `linkdata` variable with the path to your ownCloud linked data directory.
 * Replace the `linkapps-external` variable with the path to your ownCloud linked apps-external directory.
